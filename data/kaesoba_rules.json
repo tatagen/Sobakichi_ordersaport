@@ -1,0 +1,637 @@
+{
+  "menu_prefixes": {
+    "MENU_051": {
+      "toshi": "みにたま",
+      "denpyo": "ミニ玉丼"
+    },
+    "MENU_052": {
+      "toshi": "みにおや",
+      "denpyo": "ミニ親"
+    },
+    "MENU_053": {
+      "toshi": "みにとろ",
+      "denpyo": "ミニとろ"
+    },
+    "MENU_054": {
+      "toshi": "みにかつ",
+      "denpyo": "ミニカツ"
+    },
+    "MENU_055": {
+      "toshi": "いくら",
+      "denpyo": "イクラ"
+    },
+    "MENU_056": {
+      "toshi": "やまいくら",
+      "denpyo": "山イクラ"
+    },
+    "MENU_057": {
+      "toshi": "みにとろてん",
+      "denpyo": "ミニとろ天"
+    },
+    "MENU_058": {
+      "toshi": "みにいくらてん",
+      "denpyo": "ミニイクラ天"
+    },
+    "MENU_063": {
+      "toshi": "てんどん",
+      "denpyo": "天丼"
+    },
+    "MENU_064": {
+      "toshi": "てんとじどん",
+      "denpyo": "天とじ丼"
+    },
+    "MENU_065": {
+      "toshi": "たま",
+      "denpyo": "玉子丼"
+    },
+    "MENU_066": {
+      "toshi": "たま",
+      "denpyo": "玉子丼"
+    },
+    "MENU_067": {
+      "toshi": "おや",
+      "denpyo": "親"
+    },
+    "MENU_068": {
+      "toshi": "たににんどん",
+      "denpyo": "他人丼"
+    },
+    "MENU_069": {
+      "toshi": "とろ",
+      "denpyo": "とろろ丼"
+    },
+    "MENU_070": {
+      "toshi": "やさいどん",
+      "denpyo": "やさい丼"
+    },
+    "MENU_072": {
+      "toshi": "からあげどん",
+      "denpyo": "からあげ丼"
+    },
+    "MENU_073": {
+      "toshi": "かつ",
+      "denpyo": "カツ"
+    },
+    "MENU_074": {
+      "toshi": "おろしかつ",
+      "denpyo": "おろしカツ"
+    },
+    "MENU_075": {
+      "toshi": "えびかきあげどん",
+      "denpyo": "えびかきあげ丼"
+    },
+    "MENU_076": {
+      "toshi": "かもとじどん",
+      "denpyo": "かもとじ丼"
+    },
+    "MENU_077": {
+      "toshi": "かきふらいどん",
+      "denpyo": "フライ丼"
+    },
+    "MENU_078": {
+      "toshi": "えびからどん",
+      "denpyo": "えびから丼"
+    },
+    "MENU_079": {
+      "toshi": "べん",
+      "denpyo": null,
+      "format": "bento"
+    },
+    "MENU_087": {
+      "toshi": "おにぎり",
+      "denpyo": "（お）"
+    }
+  },
+  "toppings": [
+    {
+      "id": "釜あげ",
+      "name": "釜あげ",
+      "toshi": "かまあげ",
+      "denpyo": "かまあげ",
+      "is_ten": false,
+      "order": 3,
+      "kaesoba_price": 50,
+      "category": "noodle"
+    },
+    {
+      "id": "天ぷら",
+      "name": "天ぷら",
+      "toshi": "てん",
+      "denpyo": "天",
+      "is_ten": true,
+      "order": 4,
+      "kaesoba_price": 300,
+      "category": "noodle"
+    },
+    {
+      "id": "天上",
+      "name": "天上",
+      "toshi": "てんじょう",
+      "denpyo": "天上",
+      "is_ten": false,
+      "order": 5,
+      "kaesoba_price": 600,
+      "category": "noodle"
+    },
+    {
+      "id": "天とじ",
+      "name": "天とじ",
+      "toshi": "てんとじそ",
+      "denpyo": "天とじそ",
+      "is_ten": false,
+      "order": 6,
+      "kaesoba_price": 360,
+      "category": "noodle"
+    },
+    {
+      "id": "玉子",
+      "name": "玉子",
+      "toshi": "たまご",
+      "denpyo": "玉子",
+      "is_ten": false,
+      "order": 7,
+      "kaesoba_price": 60,
+      "category": "noodle"
+    },
+    {
+      "id": "月見",
+      "name": "月見",
+      "toshi": "つきみ",
+      "denpyo": "月見",
+      "is_ten": false,
+      "order": 8,
+      "kaesoba_price": 60,
+      "category": "noodle"
+    },
+    {
+      "id": "きつね",
+      "name": "きつね",
+      "toshi": "きつね",
+      "denpyo": "きつね",
+      "is_ten": false,
+      "order": 9,
+      "kaesoba_price": 160,
+      "category": "noodle"
+    },
+    {
+      "id": "じゃこ天",
+      "name": "じゃこ天",
+      "toshi": "じゃこそ",
+      "denpyo": "じゃこ天そ",
+      "is_ten": false,
+      "order": 10,
+      "kaesoba_price": 260,
+      "category": "noodle"
+    },
+    {
+      "id": "鳥なん",
+      "name": "鳥なん",
+      "toshi": "とり",
+      "denpyo": "とり",
+      "is_ten": false,
+      "order": 11,
+      "kaesoba_price": 220,
+      "category": "noodle"
+    },
+    {
+      "id": "肉",
+      "name": "肉",
+      "toshi": "にく",
+      "denpyo": "肉",
+      "is_ten": false,
+      "order": 12,
+      "kaesoba_price": 270,
+      "category": "noodle"
+    },
+    {
+      "id": "鴨なん",
+      "name": "鴨なん",
+      "toshi": "かも",
+      "denpyo": "かも",
+      "is_ten": false,
+      "order": 13,
+      "kaesoba_price": 320,
+      "category": "noodle"
+    },
+    {
+      "id": "おかめ",
+      "name": "おかめ",
+      "toshi": "おかめ",
+      "denpyo": "おかめ",
+      "is_ten": false,
+      "order": 14,
+      "kaesoba_price": 280,
+      "category": "noodle"
+    },
+    {
+      "id": "田舎",
+      "name": "田舎",
+      "toshi": "いなか",
+      "denpyo": "田",
+      "is_ten": false,
+      "order": 15,
+      "kaesoba_price": 320,
+      "category": "noodle"
+    },
+    {
+      "id": "にしん",
+      "name": "にしん",
+      "toshi": "にしん",
+      "denpyo": "にしん",
+      "is_ten": false,
+      "order": 16,
+      "kaesoba_price": 450,
+      "category": "noodle"
+    },
+    {
+      "id": "田舎にしん",
+      "name": "田舎にしん",
+      "toshi": "いなかにしん",
+      "denpyo": "田にしん",
+      "is_ten": false,
+      "order": 17,
+      "kaesoba_price": 770,
+      "category": "noodle"
+    },
+    {
+      "id": "都",
+      "name": "都",
+      "toshi": "みやこ",
+      "denpyo": "都",
+      "is_ten": false,
+      "order": 18,
+      "kaesoba_price": 620,
+      "category": "noodle"
+    },
+    {
+      "id": "満足",
+      "name": "満足",
+      "toshi": "まんぞく",
+      "denpyo": "満足",
+      "is_ten": false,
+      "order": 19,
+      "kaesoba_price": 430,
+      "category": "noodle"
+    },
+    {
+      "id": "山菜",
+      "name": "山菜",
+      "toshi": "さんさい",
+      "denpyo": "山菜",
+      "is_ten": false,
+      "order": 20,
+      "kaesoba_price": 220,
+      "category": "noodle"
+    },
+    {
+      "id": "盛合",
+      "name": "盛合",
+      "toshi": "もりあわせ",
+      "denpyo": "盛合",
+      "is_ten": false,
+      "order": 2,
+      "kaesoba_price": 50,
+      "category": "noodle"
+    },
+    {
+      "id": "collab_天(梅)",
+      "name": "天(梅)",
+      "toshi": "天(梅)",
+      "denpyo": "天(梅)",
+      "is_ten": false,
+      "order": 30,
+      "kaesoba_price": 420,
+      "category": "collab"
+    },
+    {
+      "id": "collab_とり(天)",
+      "name": "とり(天)",
+      "toshi": "とり(天)",
+      "denpyo": "とり(天)",
+      "is_ten": false,
+      "order": 31,
+      "kaesoba_price": 520,
+      "category": "collab"
+    },
+    {
+      "id": "collab_とり(じゃこ)",
+      "name": "とり(じゃこ)",
+      "toshi": "とり(じゃこ)",
+      "denpyo": "とり(じゃこ)",
+      "is_ten": false,
+      "order": 32,
+      "kaesoba_price": 350,
+      "category": "collab"
+    },
+    {
+      "id": "collab_とり(梅)",
+      "name": "とり(梅)",
+      "toshi": "とり(梅)",
+      "denpyo": "とり(梅)",
+      "is_ten": false,
+      "order": 33,
+      "kaesoba_price": 340,
+      "category": "collab"
+    },
+    {
+      "id": "collab_とり(きつね)",
+      "name": "とり(きつね)",
+      "toshi": "とり(きつね)",
+      "denpyo": "とり(きつね)",
+      "is_ten": false,
+      "order": 34,
+      "kaesoba_price": 300,
+      "category": "collab"
+    },
+    {
+      "id": "collab_肉(天)",
+      "name": "肉(天)",
+      "toshi": "肉(天)",
+      "denpyo": "肉(天)",
+      "is_ten": false,
+      "order": 35,
+      "kaesoba_price": 570,
+      "category": "collab"
+    },
+    {
+      "id": "collab_肉(じゃこ)",
+      "name": "肉(じゃこ)",
+      "toshi": "肉(じゃこ)",
+      "denpyo": "肉(じゃこ)",
+      "is_ten": false,
+      "order": 36,
+      "kaesoba_price": 400,
+      "category": "collab"
+    },
+    {
+      "id": "collab_肉(きつね)",
+      "name": "肉(きつね)",
+      "toshi": "肉(きつね)",
+      "denpyo": "肉(きつね)",
+      "is_ten": false,
+      "order": 37,
+      "kaesoba_price": 350,
+      "category": "collab"
+    },
+    {
+      "id": "collab_かも(天)",
+      "name": "かも(天)",
+      "toshi": "かも(天)",
+      "denpyo": "かも(天)",
+      "is_ten": false,
+      "order": 38,
+      "kaesoba_price": 620,
+      "category": "collab"
+    },
+    {
+      "id": "collab_かも(じゃこ)",
+      "name": "かも(じゃこ)",
+      "toshi": "かも(じゃこ)",
+      "denpyo": "かも(じゃこ)",
+      "is_ten": false,
+      "order": 39,
+      "kaesoba_price": 450,
+      "category": "collab"
+    },
+    {
+      "id": "collab_かも(きつね)",
+      "name": "かも(きつね)",
+      "toshi": "かも(きつね)",
+      "denpyo": "かも(きつね)",
+      "is_ten": false,
+      "order": 40,
+      "kaesoba_price": 400,
+      "category": "collab"
+    },
+    {
+      "id": "collab_おかめ(天)",
+      "name": "おかめ(天)",
+      "toshi": "おかめ(天)",
+      "denpyo": "おかめ(天)",
+      "is_ten": false,
+      "order": 41,
+      "kaesoba_price": 580,
+      "category": "collab"
+    },
+    {
+      "id": "collab_山菜(天)",
+      "name": "山菜(天)",
+      "toshi": "山菜(天)",
+      "denpyo": "山菜(天)",
+      "is_ten": false,
+      "order": 42,
+      "kaesoba_price": 520,
+      "category": "collab"
+    },
+    {
+      "id": "collab_山かけ(梅)",
+      "name": "山かけ(梅)",
+      "toshi": "山かけ(梅)",
+      "denpyo": "山かけ(梅)",
+      "is_ten": false,
+      "order": 43,
+      "kaesoba_price": 620,
+      "category": "collab"
+    },
+    {
+      "id": "collab_都(じゃこ)",
+      "name": "都(じゃこ)",
+      "toshi": "都(じゃこ)",
+      "denpyo": "都(じゃこ)",
+      "is_ten": false,
+      "order": 44,
+      "kaesoba_price": 750,
+      "category": "collab"
+    },
+    {
+      "id": "collab_とり(天・じゃこ)",
+      "name": "とり(天・じゃこ)",
+      "toshi": "とり(天・じゃこ)",
+      "denpyo": "とり(天・じゃこ)",
+      "is_ten": false,
+      "order": 45,
+      "kaesoba_price": 650,
+      "category": "collab"
+    },
+    {
+      "id": "collab_とり(天・きつね)",
+      "name": "とり(天・きつね)",
+      "toshi": "とり(天・きつね)",
+      "denpyo": "とり(天・きつね)",
+      "is_ten": false,
+      "order": 46,
+      "kaesoba_price": 600,
+      "category": "collab"
+    },
+    {
+      "id": "collab_肉(天・じゃこ)",
+      "name": "肉(天・じゃこ)",
+      "toshi": "肉(天・じゃこ)",
+      "denpyo": "肉(天・じゃこ)",
+      "is_ten": false,
+      "order": 47,
+      "kaesoba_price": 700,
+      "category": "collab"
+    },
+    {
+      "id": "collab_肉(天・きつね)",
+      "name": "肉(天・きつね)",
+      "toshi": "肉(天・きつね)",
+      "denpyo": "肉(天・きつね)",
+      "is_ten": false,
+      "order": 48,
+      "kaesoba_price": 650,
+      "category": "collab"
+    },
+    {
+      "id": "collab_かも(天・じゃこ)",
+      "name": "かも(天・じゃこ)",
+      "toshi": "かも(天・じゃこ)",
+      "denpyo": "かも(天・じゃこ)",
+      "is_ten": false,
+      "order": 49,
+      "kaesoba_price": 750,
+      "category": "collab"
+    },
+    {
+      "id": "collab_かも(天・きつね)",
+      "name": "かも(天・きつね)",
+      "toshi": "かも(天・きつね)",
+      "denpyo": "かも(天・きつね)",
+      "is_ten": false,
+      "order": 50,
+      "kaesoba_price": 700,
+      "category": "collab"
+    },
+    {
+      "id": "nasu_なすおろし",
+      "name": "なすおろし",
+      "toshi": "なすおろし",
+      "denpyo": "なすおろし",
+      "is_ten": false,
+      "order": 60,
+      "kaesoba_price": 950,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_天入りなすおろし",
+      "name": "天入りなすおろし",
+      "toshi": "なすてん",
+      "denpyo": "なす（天）",
+      "is_ten": false,
+      "order": 61,
+      "kaesoba_price": 1050,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_じゃこ入なすおろし",
+      "name": "じゃこ入なすおろし",
+      "toshi": "なすじゃこ",
+      "denpyo": "なす（じゃこ）",
+      "is_ten": false,
+      "order": 62,
+      "kaesoba_price": 1000,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_きつね入なすおろし",
+      "name": "きつね入なすおろし",
+      "toshi": "なすきつね",
+      "denpyo": "なす（きつね）",
+      "is_ten": false,
+      "order": 63,
+      "kaesoba_price": 1000,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_山かけなす",
+      "name": "山かけなす",
+      "toshi": "なすやま",
+      "denpyo": "なす（山）",
+      "is_ten": false,
+      "order": 64,
+      "kaesoba_price": 1030,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_夏割子",
+      "name": "夏割子",
+      "toshi": "なつわりこ",
+      "denpyo": "夏割子",
+      "is_ten": false,
+      "order": 65,
+      "kaesoba_price": 990,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_きのこ",
+      "name": "きのこ",
+      "toshi": "きのこ",
+      "denpyo": "きのこ",
+      "is_ten": false,
+      "order": 66,
+      "kaesoba_price": 920,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_天入りきのこ",
+      "name": "天入りきのこ",
+      "toshi": "きのこてん",
+      "denpyo": "きのこ（天）",
+      "is_ten": false,
+      "order": 67,
+      "kaesoba_price": 1130,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_じゃこ入きのこ",
+      "name": "じゃこ入きのこ",
+      "toshi": "きのこじゃこ",
+      "denpyo": "きのこ（じゃこ）",
+      "is_ten": false,
+      "order": 68,
+      "kaesoba_price": 1030,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_カレーきのこ",
+      "name": "カレーきのこ",
+      "toshi": "かれーきのこ",
+      "denpyo": "カレーきのこ",
+      "is_ten": false,
+      "order": 69,
+      "kaesoba_price": 980,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_カレーきのこ玉子とじ",
+      "name": "カレーきのこ玉子とじ",
+      "toshi": "かれーきのことじ",
+      "denpyo": "カレーきのことじ",
+      "is_ten": false,
+      "order": 70,
+      "kaesoba_price": 1040,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_かも（きのこ）",
+      "name": "かも（きのこ）",
+      "toshi": "かも（きのこ）",
+      "denpyo": "かも（きのこ）",
+      "is_ten": false,
+      "order": 71,
+      "kaesoba_price": 1130,
+      "category": "nasu"
+    },
+    {
+      "id": "nasu_きのこ（梅）",
+      "name": "きのこ（梅）",
+      "toshi": "きのこ（梅）",
+      "denpyo": "きのこ（梅）",
+      "is_ten": false,
+      "order": 72,
+      "kaesoba_price": 1030,
+      "category": "nasu"
+    }
+  ]
+}

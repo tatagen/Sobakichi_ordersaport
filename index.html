@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#8b3a2a">
+  <title>そば吉 オーダーサポート</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+  <div id="app">
+
+    <!-- ========== S-01: ホーム ========== -->
+    <div id="screen-home" class="screen active">
+      <header class="header">
+        <h1>そば吉 オーダーサポート</h1>
+      </header>
+      <div class="search-bar-wrap">
+        <input id="search-input" class="search-input" type="search"
+               placeholder="メニューを検索…" autocomplete="off" inputmode="search">
+      </div>
+      <div id="search-results" class="search-results" style="display:none"></div>
+      <div id="home-content">
+        <div class="home-section-label">カテゴリ</div>
+        <div id="category-grid" class="category-grid"></div>
+        <div id="history-section" class="history-section" style="display:none">
+          <div class="home-section-label">最近の注文</div>
+          <div id="history-list" class="history-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== S-02: 商品一覧 ========== -->
+    <div id="screen-menu" class="screen">
+      <header class="header-sub">
+        <h2 id="menu-screen-title">商品一覧</h2>
+      </header>
+      <div class="search-bar-wrap">
+        <input id="search-input-menu" class="search-input" type="search"
+               placeholder="メニューを検索…" autocomplete="off" inputmode="search">
+      </div>
+      <div class="content">
+        <div id="menu-list"></div>
+      </div>
+    </div>
+
+    <!-- ========== S-03: オプション選択 ========== -->
+    <div id="screen-option" class="screen">
+      <header class="header-sub">
+        <h2 id="option-screen-title">オプション</h2>
+      </header>
+      <div class="content">
+        <div id="option-list"></div>
+      </div>
+    </div>
+
+    <!-- ========== S-04: 結果表示 ========== -->
+    <div id="screen-result" class="screen">
+      <header class="header-sub">
+        <h2>通し方・伝票</h2>
+      </header>
+      <p id="result-summary" class="result-summary"></p>
+      <div id="result-content" class="result-content"></div>
+      <button class="btn-add-cart" id="btn-add-cart" onclick="addToCart()">
+        + カートに追加
+      </button>
+      <div style="height:80px"></div>
+    </div>
+
+    <!-- ========== カートモーダル ========== -->
+    <div id="cart-modal" class="cart-modal" style="display:none">
+      <div class="cart-modal-inner">
+        <div class="cart-modal-header">
+          <span id="cart-modal-title">カート（0件）</span>
+          <button class="cart-modal-close" onclick="closeCart()">✕</button>
+        </div>
+        <div id="cart-modal-body" class="cart-modal-body"></div>
+        <div class="cart-modal-footer" id="cart-modal-footer"></div>
+      </div>
+    </div>
+
+    <!-- フローティングボタン -->
+    <button id="fab-cart" class="fab fab-cart" onclick="openCart()">
+      🛒<span class="cart-badge" id="cart-badge">0</span>
+    </button>
+    <button id="fab-home" class="fab fab-home" onclick="showScreen('home')">🏠</button>
+    <button id="fab-back" class="fab fab-back" onclick="fabBack()">‹</button>
+
+    <!-- トースト -->
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+  </div>
+
+  <script src="js/data-loader.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
+</body>
+</html>

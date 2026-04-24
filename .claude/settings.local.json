@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ':*)",
+      "Bash(python3:*)",
+      "Bash(node --check \"C:/Users/happy/OneDrive/デスクトップ/sobakichi-app/js/app.js\")",
+      "Bash(node --check \"C:/Users/happy/OneDrive/デスクトップ/sobakichi-app/js/data-loader.js\")",
+      "Bash(curl -s \"http://localhost:8080/data/menus.json\")",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(python -m http.server 8000)",
+      "Bash(start /B python -m http.server 8000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000)",
+      "Bash(ls \"C:/Users/happy/OneDrive/デスクトップ/\"*.xlsx)",
+      "Bash(ls \"C:/Users/happy/\"*.xlsx)",
+      "Bash(ls \"C:/Users/happy/tmp\"*.xlsx)",
+      "Bash(python -m http.server 8080)",
+      "Bash(netstat -ano)",
+      "Bash(python:*)",
+      "Bash(taskkill /PID 4352 /F)",
+      "Bash(taskkill /PID 25244 /F)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} taskkill /PID {} /F)"
+    ]
+  }
+}

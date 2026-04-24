@@ -1,0 +1,21 @@
+# Excelファイル（参照用資料）
+*.xlsx
+*.xlsm
+*.xls
+
+# Wordファイル（仕様書）
+*.docx
+*.doc
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 仕様書・内部資料（Webに公開しない）
+そば吉アプリ_仕様書.md
+そば吉・研修生支援仕様書.docx
+CLAUDE.md
