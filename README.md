@@ -1,63 +1,32 @@
-# そば吉 オーダーサポートアプリ
+# 🍜 そば吉 オーダー研修ツール
 
-> 飲食店スタッフ向け オーダー研修ツール
+飲食店スタッフ向けのオーダー研修Webアプリです。メニューを選択すると調理手順・提供セット・アレルギー情報が表示され、新人スタッフのトレーニングを効率化します。
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+🖥️ **[デモを見る](https://tatagen.github.io/Sobakichi_ordersaport/)**
 
 ---
 
-## 解決する課題
+## ✨ 主な機能
 
-新人スタッフがオーダーを受けてから料理を提供するまでの手順を覚えるのに時間がかかります。このアプリはメニューを選ぶだけで調理手順・チーキーフォーマット・提供セットを即座に表示し、研修コストを削減します。
+- **メニュー別調理手順** — 各メニューの調理工程をステップ形式で表示
+- **提供セット表示** — 付け合わせ・食器・提供方法をまとめて確認
+- **アレルギー情報** — メニューごとのアレルゲン情報を一覧表示
+- **モバイル対応** — スマートフォンでの確認も快適
 
----
+## 🛠️ 技術スタック
 
-## 機能
+| 分類 | 技術 |
+|------|------|
+| フロントエンド | HTML5 / CSS3 / Vanilla JavaScript |
+| データ | JSON ファイル |
+| デプロイ | GitHub Pages（ビルド不要） |
 
-- メニューを選択すると調理手順をステップ形式で表示
-- チーキーフォーマット（伝票記入方法）の確認
-- 提供セット（付け合わせ・食器など）の一覧表示
-- スマートフォン最適化UI（max-width: 480px）
-
----
-
-## 技術的なポイント
-
-- **外部ライブラリ完全不使用**：React・Vue等のフレームワークを一切使わず、Vanilla JS / HTML / CSS のみで構築。軽量・高速・依存関係ゼロ。
-- メニューデータをJSONファイルで管理しているため、新メニューの追加・変更がコードを触らずに可能
-- スマートフォンでも片手操作しやすいレスポンシブレイアウト
-
----
-
-## 技術スタック
-
-| カテゴリ | 技術 |
-|---|---|
-| フロントエンド | HTML / CSS / Vanilla JavaScript |
-| データ管理 | JSON ファイル |
-| アーキテクチャ | クライアントサイドのみ（外部ライブラリ不使用） |
-
----
-
-## 起動方法
-
-`fetch()` でJSONデータを読み込むため、ローカルサーバーが必要です。
-
-**VS Code Live Server を使う場合**
-
-`index.html` を右クリック → `Open with Live Server`
-
-**Python を使う場合**
+## 🚀 ローカル実行
 
 ```bash
-python -m http.server 8080
-# ブラウザで http://localhost:8080 を開く
+git clone https://github.com/tatagen/Sobakichi_ordersaport.git
+cd Sobakichi_ordersaport
+# index.html をブラウザで開くだけで動作します
 ```
 
-**Node.js を使う場合**
-
-```bash
-npx serve .
-```
+> サーバー・依存パッケージは不要です。
