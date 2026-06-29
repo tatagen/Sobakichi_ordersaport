@@ -2,7 +2,7 @@
 
 飲食店スタッフ向けのオーダー研修Webアプリです。メニューを選択すると調理手順・提供セット・アレルギー情報が表示され、新人スタッフのトレーニングを効率化します。
 
-🖥️ **[デモを見る](https://tatagen.github.io/Sobakichi_ordersaport/)**
+🖥️ **[デモを見る](https://sobakichi-ordersaport.pages.dev/)**
 
 ---
 
@@ -19,7 +19,7 @@
 |------|------|
 | フロントエンド | HTML5 / CSS3 / Vanilla JavaScript |
 | データ | JSON ファイル |
-| デプロイ | GitHub Pages（ビルド不要） |
+| デプロイ | Cloudflare Pages |
 
 ## 🚀 ローカル実行
 
@@ -28,5 +28,3 @@ git clone https://github.com/tatagen/Sobakichi_ordersaport.git
 cd Sobakichi_ordersaport
 # index.html をブラウザで開くだけで動作します
 ```
-
-> サーバー・依存パッケージは不要です。
